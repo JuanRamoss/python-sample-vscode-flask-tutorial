@@ -8,10 +8,10 @@ trigger:
 
 pool: Default
 
-container: mcr.microsoft.com/windows/servercore:ltsc2019
+container: ubuntu:18.04
 
 steps:
-- script: set
+- script: printenv
 #strategy:
 #  matrix:
 #    Python27:
